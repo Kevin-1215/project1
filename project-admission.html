@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Microsoft JhengHei;
+		}
+		#title{
+			height: 65px;
+			line-height: 65px;
+			background:	#0066CC;
+			color: white;
+		}
+		h3{
+			background: white;
+			color: #0066CC;
+		}
+		input{
+			float: right;
+			margin-right: 10px;
+		}
+		#inline_nav{
+			display: flex;
+			justify-content: space-around;
+		}
+		div{
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		ul{
+			background: #0066CC;
+		}
+		li{
+			display: inline;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+			margin: auto;
+		}
+		li a:hover{
+			color: black;
+			background: orange;
+		}
+	
+		footer{
+			background: #0066CC;
+			color: white;
+			text-align: center;
+		}
+		h5 a{
+			text-decoration: none;
+			color: black;
+		}
+		h5 a:hover{
+			color: red;
+		}
+		#id_footer {
+    		box-sizing: border-box;
+    		position: absolute;
+    		bottom: 0;
+    		width: 100%;
+		}
+		#id_wrapper{
+			min-height: 100%;
+			position: relative;	
+			padding-top: 0px;
+		}
+		#id_content{
+			display: flex;
+			padding-top: 20px;
+			justify-content: space-around;
+			padding-bottom: 300px;
+		}
+		h2{
+			background: #84C1FF;
+		}
+		#id_college, #id_research_institute{
+			margin: 10px;
+			width: 50%; 
+			background: #D2E9FF;
+		}
+	</style>
+</head>
+<body>
+	<div id="id_wrapper">
+		<header id="id_header" style="padding-top: 0px;">
+			<div id="title">
+				<h1><img src="NTUST_Management.png" width="45px" height="45px" align="absmiddle">國立臺灣柯基大學 資訊管理系<img src="Taiwan Tech Logo.png" width="45px" height="55px" align="absmiddle"></h1>
+			</div>
+			<h3>National Taiwan Corgi Unuversity Department of Information Management<input maxlength="200" type="text" size="20" value="搜尋..."></h3>
+		</header>
+
+		<nav id="id_nav">
+			<ul id="inline_nav">
+				<li><a href="project-main.html"><b>首頁</b></a></li>
+				<li><a href="project-admission.html"><b>招生資訊</b></a></li>
+				<li><a href="project-login.html"><b>學生登入</b></a></li>
+				<li><a href="project-aboutus.html"><b>關於我們</b></a></li>
+			</ul>	
+		</nav>
+
+		<div>
+			<img src="pic6.png" width="100%">
+		</div>
+
+		<div id="id_content">
+			<div id="id_college">
+				<h2>大學部招生公告</h2>
+				<br>
+				<h5><a href="https://www.admission.ntust.edu.tw/p/406-1052-87455,r1537.php?Lang=zh-tw">[2021.03.30] (3/31 上午10:00起請至科技校院聯合招生委員會查詢) 110學年度高中生申請入學招生第一階段篩選結果</a></h5>
+				<h5><a href="https://www.admission.ntust.edu.tw/p/406-1052-88243,r1537.php?Lang=zh-tw">[2021.03.06] 公告本校110學年度大學部四年制運動績優學生單獨招生術科考試時間地點</a></h5>
+				<h5><a href="https://www.admission.ntust.edu.tw/p/406-1052-88244,r1537.php?Lang=zh-tw">[2021.03.03] 110運動績優術科考試因應「新型冠狀病毒肺炎」注意事項</a></h5>
+			</div>
+			<div id="id_research_institute">
+				<h2>研究所招生公告</h2>
+				<br>
+				<h5><a href="https://www.admission.ntust.edu.tw/p/406-1052-88158,r1536.php?Lang=zh-tw">[2021.03.31] 110年度博士班招生簡章公告</a></h5>
+				<h5><a href="https://www.admission.ntust.edu.tw/p/406-1052-89092,r1536.php?Lang=zh-tw">[2021.03.23] 110學年度碩士班、碩士在職專班錄取名單公告</a></h5>
+				<h5><a href="https://www.admission.ntust.edu.tw/var/file/52/1052/img/2674/272976155.pdf">[2021.03.18] 110學年度碩士班招生報到切結書</a></h5>
+			</div>	
+		</div>
+		
+		<footer id="id_footer">
+			<div>
+				地址：106335 臺北市大安區基隆路 4 段 43 號　|　電話：02-27333141轉7901　|　E-mail：office6764@cs.ntust.edu.tw
+				<br>
+				Copyright © 2018 - 2021 Department of Information Management, NTUST. All Rights Reserved.
+				<br>
+				建議使用Chrome、Firefox、Opera或IE 10以上版本之瀏覽器以瀏覽本網站
+				<br>
+				Design by B10630030 周靖翔
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

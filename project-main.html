@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Microsoft JhengHei;
+		}
+		#title{
+			height: 65px;
+			line-height: 65px;
+			background:	#0066CC;
+			color: white;
+		}
+		h3{
+			background: white;
+			color: #0066CC;
+		}
+		input{
+			float: right;
+			margin-right: 10px;
+		}
+		#inline_nav{
+			display: flex;
+			justify-content: space-around;
+		}
+		div{
+			padding-bottom: 5px;
+		}
+		ul{
+			background: #0066CC;
+		}
+		li{
+			display: inline;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+			margin: auto;
+		}
+		li a:hover{
+			color: black;
+			background: orange;
+		}
+		.title{
+			text-align: center;
+			font-size: 1.5em;
+		}
+		#id_content{
+			display: flex;
+			justify-content: space-around;
+			font-size: 17px;
+			padding-bottom: 150px;
+			margin-left: 15px;
+		}
+		footer{
+			background: #0066CC;
+			color: white;
+			text-align: center;
+		}
+		h5 a{
+			text-decoration: none;
+			color: black;
+		}
+		h5 a:hover{
+			color: red;
+		}
+		.pic{
+			margin: auto
+		}
+		#id_footer {
+    		box-sizing: border-box;
+   		 	position: absolute;
+    		bottom: 0;
+    		width: 100%;
+		}
+		#id_wrapper{
+			min-height: 100%;
+			position: relative;	
+		}
+	</style>
+</head>
+<body>
+	<div id="id_wrapper">
+		<header id="id_header">
+			<div id="title">
+				<h1><img src="NTUST_Management.png" width="45px" height="45px" align="absmiddle">國立臺灣柯基大學 資訊管理系<img src="Taiwan Tech Logo.png" width="45px" height="55px" align="absmiddle"></h1>
+			</div>
+			<h3>National Taiwan Corgi Unuversity Department of Information Management<input maxlength="200" type="text" size="20" value="搜尋..."></h3>
+		</header>
+
+		<nav id="id_nav">
+			<ul id="inline_nav">
+				<li><a href="project-main.html"><b>首頁</b></a></li>
+				<li><a href="project-admission.html"><b>招生資訊</b></a></li>
+				<li><a href=""><b>學生登入</b></a></li>
+				<li><a href="project-aboutus.html"><b>關於我們</b></a></li>
+			</ul>	
+		</nav>
+
+		<div>
+			<img src="title.png" width="100%">
+		</div>
+
+		<div id="id_content">
+			<div id="section1">
+				<section class="title"><b>系所公告</b></section><br>
+				<div id="sec1">
+					<img class="pic" src="pic2.png" width="95%">
+					<br>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/766-110%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E8%A8%82%E3%80%8C%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E8%B3%87%E8%A8%8A%E7%AE%A1%E7%90%86%E7%B3%BB%E7%A0%94%E7%A9%B6%E6%89%80%E4%BF%AE%E6%A5%AD%E8%A6%8F%E5%AE%9A%E3%80%8D%EF%BC%8C%E8%87%AA110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%B8-%E5%AD%B8%E8%99%9F110-%E8%B5%B7%E9%81%A9%E7%94%A8%E3%80%82">[2021.03.17] 109學年實務專題競賽於110年5月27日(四)下午辦...</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/765-109-2%E8%AA%B2%E7%A8%8B%E8%A9%95%E9%87%8F%E6%99%82%E7%A8%8B">[2021.03.06] 博士班逕讀公告：110學年度第1學期博班逕讀通知...</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/755-%E6%96%B0%E9%96%8B%E8%AA%B2%E7%A8%8B%EF%BC%81mb2512701%E5%89%B5%E6%96%B0%E9%87%91%E8%9E%8D%E8%A1%8C%E9%8A%B7%E8%88%87%E6%9C%8D%E5%8B%99%E8%A8%AD%E8%A8%88%EF%BC%8C%E6%AD%A1%E8%BF%8E%E5%A4%A7%E5%AE%B6%E8%B8%B4%E8%BA%8D%E9%81%B8%E8%AA%B2">[2021.03.03] 新開課程！MB2512701創新金融行銷與服務設計...</a></h5>
+				</div>
+			</div>
+
+			<div id="section2">
+				<section class="title"><b>得獎訊息</b></section><br>
+				<div id="sec2">
+					<img class="pic" src="pic3.png" width="95%">
+					<br>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/742-%E6%81%AD%E5%96%9C%E6%9C%AC%E7%B3%BB%E5%8D%9A%E5%A3%AB%E7%8F%AD109%E7%B4%9A%E5%88%A9%E6%96%87%E9%9F%A1%E5%90%8C%E5%AD%B8%E7%8D%B2%E5%BE%972020-2021%E5%B9%B4%E5%BA%A6%E4%B8%AD%E8%8F%AF%E6%89%B6%E8%BC%AA%E7%8D%8E%E5%AD%B8%E9%87%91">[2020.12.23] 恭喜本系博士班109級利文韡同學獲得2020-2021...</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/703-%E6%9C%AC%E7%B3%BB%E6%9E%97%E4%BC%AF%E6%85%8E%E5%89%AF%E6%95%99%E6%8E%88%E3%80%81%E6%A5%8A%E7%B6%AD%E5%AF%A7%E6%95%99%E6%8E%88%E6%A6%AE%E7%8D%B2108%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%95%99%E5%AD%B8%E5%84%AA%E8%89%AF%E7%8D%8E">[2020.07.07] 本系林伯慎副教授、楊維寧教授榮獲108學年度...</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/688-%E6%81%AD%E5%96%9C%E6%9C%AC%E7%B3%BB%E5%BE%90%E5%84%80%E7%BF%94%E5%90%8C%E5%AD%B8%E5%8F%8A%E6%9D%8E%E5%A5%95%E6%AC%A3%E5%90%8C%E5%AD%B8%E6%A6%AE%E7%8D%B2%E7%AC%AC50%E7%95%8C%E5%85%A8%E5%9C%8B%E6%8A%80%E8%83%BD%E7%AB%B6%E8%B3%BD%E5%8D%97%E5%8D%80%E5%88%86%E5%8D%80%E7%B6%B2%E8%B7%AF%E5%AE%89%E5%85%A8%E8%81%B7%E9%A1%9E%E7%AC%AC%E4%B8%80%E5%90%8D-%E6%9F%A5%E5%A3%AB%E6%9C%9D%E6%95%99%E6%8E%88%E6%8C%87%E5%B0%8E">[2020.05.11] 恭喜本系徐儀翔同學及李奕欣同學榮獲第50界全...</a></h5>
+				</div>
+			</div>
+
+			<div id="section3">
+				<section class="title"><b>得獎訊息</b></section><br>
+				<div id="sec3">
+					<img class="pic" src="pic4.png" width="95%">
+					<br>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/764-%E5%BB%A3%E9%81%942021%E5%84%B2%E5%82%99%E5%B9%B9%E9%83%A8%E8%A8%88%E7%95%AB">[2021.03.23] 廣達2021儲備幹部計畫</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/763-2021%E6%97%A5%E6%9C%AC%E4%BC%81%E6%A5%AD%E5%B0%B1%E8%81%B7%E5%8D%9A%E8%A6%BD%E6%9C%83%E7%B7%9A%E4%B8%8A%E5%BE%B5%E6%89%8D%E6%B4%BB%E5%8B%95">[2021.03.23] 2021日本企業就職博覽會線上徵才活動</a></h5>
+					<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/761-%E3%80%90deloitte-consulting-%E5%BE%B7%E5%8B%A4%E5%A4%AA%E5%B9%B3%E6%B4%8B%E4%BC%81%E6%A5%AD%E7%AE%A1%E7%90%86%E5%92%A8%E8%A9%A2%E3%80%912021-%E5%8F%B0%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%9C%92%E5%BE%B5%E6%89%8D%E8%AA%AA%E6%98%8E%E6%9C%83">[2021.03.16] 台灣集中保管結算所工讀徵選</a></h5>
+				</div>
+			</div>
+		</div>
+		<!-- <div id="section1">
+			<section><b>系所公告</b></section>
+			<section><b>得獎訊息</b></section>
+			<section><b>業界徵才</b></section>
+		</div>
+
+		<div id="section2">
+			<div id="sec1">
+				<img src="pic2.png" width="400">
+				<br>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/766-110%E5%B9%B43%E6%9C%8818%E6%97%A5%E4%BF%AE%E8%A8%82%E3%80%8C%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E8%B3%87%E8%A8%8A%E7%AE%A1%E7%90%86%E7%B3%BB%E7%A0%94%E7%A9%B6%E6%89%80%E4%BF%AE%E6%A5%AD%E8%A6%8F%E5%AE%9A%E3%80%8D%EF%BC%8C%E8%87%AA110%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%85%A5%E5%AD%B8-%E5%AD%B8%E8%99%9F110-%E8%B5%B7%E9%81%A9%E7%94%A8%E3%80%82">[2021.03.17] 109學年實務專題競賽於110年5月27日(四)下午辦...</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/765-109-2%E8%AA%B2%E7%A8%8B%E8%A9%95%E9%87%8F%E6%99%82%E7%A8%8B">[2021.03.06] 博士班逕讀公告：110學年度第1學期博班逕讀通知...</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/announcement/755-%E6%96%B0%E9%96%8B%E8%AA%B2%E7%A8%8B%EF%BC%81mb2512701%E5%89%B5%E6%96%B0%E9%87%91%E8%9E%8D%E8%A1%8C%E9%8A%B7%E8%88%87%E6%9C%8D%E5%8B%99%E8%A8%AD%E8%A8%88%EF%BC%8C%E6%AD%A1%E8%BF%8E%E5%A4%A7%E5%AE%B6%E8%B8%B4%E8%BA%8D%E9%81%B8%E8%AA%B2">[2021.03.03] 新開課程！MB2512701創新金融行銷與服務設計...</a></h5>
+			</div>
+
+			<div id="sec2">
+				<img src="pic3.png" width="400">
+				<br>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/742-%E6%81%AD%E5%96%9C%E6%9C%AC%E7%B3%BB%E5%8D%9A%E5%A3%AB%E7%8F%AD109%E7%B4%9A%E5%88%A9%E6%96%87%E9%9F%A1%E5%90%8C%E5%AD%B8%E7%8D%B2%E5%BE%972020-2021%E5%B9%B4%E5%BA%A6%E4%B8%AD%E8%8F%AF%E6%89%B6%E8%BC%AA%E7%8D%8E%E5%AD%B8%E9%87%91">[2020.12.23] 恭喜本系博士班109級利文韡同學獲得2020-2021...</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/703-%E6%9C%AC%E7%B3%BB%E6%9E%97%E4%BC%AF%E6%85%8E%E5%89%AF%E6%95%99%E6%8E%88%E3%80%81%E6%A5%8A%E7%B6%AD%E5%AF%A7%E6%95%99%E6%8E%88%E6%A6%AE%E7%8D%B2108%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%95%99%E5%AD%B8%E5%84%AA%E8%89%AF%E7%8D%8E">[2020.07.07] 本系林伯慎副教授、楊維寧教授榮獲108學年度...</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/award/688-%E6%81%AD%E5%96%9C%E6%9C%AC%E7%B3%BB%E5%BE%90%E5%84%80%E7%BF%94%E5%90%8C%E5%AD%B8%E5%8F%8A%E6%9D%8E%E5%A5%95%E6%AC%A3%E5%90%8C%E5%AD%B8%E6%A6%AE%E7%8D%B2%E7%AC%AC50%E7%95%8C%E5%85%A8%E5%9C%8B%E6%8A%80%E8%83%BD%E7%AB%B6%E8%B3%BD%E5%8D%97%E5%8D%80%E5%88%86%E5%8D%80%E7%B6%B2%E8%B7%AF%E5%AE%89%E5%85%A8%E8%81%B7%E9%A1%9E%E7%AC%AC%E4%B8%80%E5%90%8D-%E6%9F%A5%E5%A3%AB%E6%9C%9D%E6%95%99%E6%8E%88%E6%8C%87%E5%B0%8E">[2020.05.11] 恭喜本系徐儀翔同學及李奕欣同學榮獲第50界全...</a></h5>
+			</div>
+
+			<div id="sec3">
+				<img src="pic4.png" width="400">
+				<br>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/764-%E5%BB%A3%E9%81%942021%E5%84%B2%E5%82%99%E5%B9%B9%E9%83%A8%E8%A8%88%E7%95%AB">[2021.03.23] 廣達2021儲備幹部計畫</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/763-2021%E6%97%A5%E6%9C%AC%E4%BC%81%E6%A5%AD%E5%B0%B1%E8%81%B7%E5%8D%9A%E8%A6%BD%E6%9C%83%E7%B7%9A%E4%B8%8A%E5%BE%B5%E6%89%8D%E6%B4%BB%E5%8B%95">[2021.03.23] 2021日本企業就職博覽會線上徵才活動</a></h5>
+				<h5><a href="https://www.cs.ntust.edu.tw/index.php/zh/news/information/761-%E3%80%90deloitte-consulting-%E5%BE%B7%E5%8B%A4%E5%A4%AA%E5%B9%B3%E6%B4%8B%E4%BC%81%E6%A5%AD%E7%AE%A1%E7%90%86%E5%92%A8%E8%A9%A2%E3%80%912021-%E5%8F%B0%E7%A7%91%E5%A4%A7%E6%A0%A1%E5%9C%92%E5%BE%B5%E6%89%8D%E8%AA%AA%E6%98%8E%E6%9C%83">[2021.03.16] 台灣集中保管結算所工讀徵選</a></h5>
+			</div>
+		</div> -->
+		
+		<footer id="id_footer">
+			<div>
+				地址：106335 臺北市大安區基隆路 4 段 43 號　|　電話：02-27333141轉7901　|　E-mail：office6764@cs.ntust.edu.tw
+				<br>
+				Copyright © 2018 - 2021 Department of Information Management, NTUST. All Rights Reserved.
+				<br>
+				建議使用Chrome、Firefox、Opera或IE 10以上版本之瀏覽器以瀏覽本網站
+				<br>
+				Design by B10630030 周靖翔
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

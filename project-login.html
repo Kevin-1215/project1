@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: Microsoft JhengHei;
+		}
+		#title{
+			height: 65px;
+			line-height: 65px;
+			background:	#0066CC;
+			color: white;
+		}
+		input{
+			float: right;
+			margin-right: 10px;
+		}
+		#inline_nav{
+			display: flex;
+			justify-content: space-around;
+		}
+		div{
+			padding-top: 5px;	
+			padding-bottom: 5px;
+		}
+		ul{
+			background: #0066CC;
+		}
+		li{
+			display: inline;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+			margin: auto;
+		}
+		li a:hover{
+			color: black;
+			background: orange;
+		}
+	
+		footer{
+			background: #0066CC;
+			color: white;
+			text-align: center;
+		}
+		h5 a{
+			text-decoration: none;
+			color: black;
+		}
+		h5 a:hover{
+			color: red;
+		}
+		#id_footer {
+    		box-sizing: border-box;
+    		position: absolute;
+    		bottom: 0;
+    		width: 100%;
+		}
+		#id_wrapper{
+			min-height: 100%;
+			position: relative;	
+			padding-top: 0px;
+		}
+		#id_form{
+			display: flex;
+			padding-top: 20px;
+			justify-content: center;
+			padding-bottom: 300px;
+		}
+		h2{
+			background: #84C1FF;
+		}
+		form{
+			background: #84C1FF;
+			border-style: solid;
+			border-color: #0072E3;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div id="id_wrapper">
+		<header id="id_header">
+			<div id="title">
+				<h1><img src="NTUST_Management.png" width="45px" height="45px" align="absmiddle">國立臺灣柯基大學 資訊管理系<img src="Taiwan Tech Logo.png" width="45px" height="55px" align="absmiddle"></h1>
+			</div>
+			<h3>National Taiwan Corgi Unuversity Department of Information Management<input maxlength="200" type="text" size="20" value="搜尋..."></h3>
+		</header>
+
+		<nav id="id_nav">
+			<ul id="inline_nav">
+				<li><a href="project-main.html"><b>首頁</b></a></li>
+				<li><a href="project-admission.html"><b>招生資訊</b></a></li>
+				<li><a href="project-login.html"><b>學生登入</b></a></li>
+				<li><a href="project-aboutus.html"><b>關於我們</b></a></li>
+			</ul>	
+		</nav>
+		<div>
+			<img src="pic7.png" width="100%">
+		</div>
+		<div id="id_form">
+			<form>
+				<br>
+				<h3 style="text-align: center;">學生登入</h3>
+				<br>
+				<p><pre>姓名:     <input type="text" name="name"></pre></p>
+				<br>
+				<p>學號:<input type="text" name="snumber"></p>
+				<br>
+				<p>密碼:<input type="password" name="password"></p>
+				<br>
+				<p>生日:<input type="date" min="1998-12-15" name="bday"></p>
+				<br>
+				<input type="submit" value="送出" onclick="alert('還不能登入因為我不會寫QwQ')">
+				<input type="reset" value="重置">
+			</form>
+		</div>
+		
+		<footer id="id_footer">
+			<div>
+				地址：106335 臺北市大安區基隆路 4 段 43 號　|　電話：02-27333141轉7901　|　E-mail：office6764@cs.ntust.edu.tw
+				<br>
+				Copyright © 2018 - 2021 Department of Information Management, NTUST. All Rights Reserved.
+				<br>
+				建議使用Chrome、Firefox、Opera或IE 10以上版本之瀏覽器以瀏覽本網站
+				<br>
+				Design by B10630030 周靖翔
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
